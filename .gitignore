@@ -1,4 +1,7 @@
-g# Byte-compiled / optimized / DLL files
+# config.py
+practical_lesson_1/config.py
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
