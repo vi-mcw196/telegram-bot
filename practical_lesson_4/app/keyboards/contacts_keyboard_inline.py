@@ -1,10 +1,9 @@
 from aiogram import types
 
-
-inst_button = types.InlineKeyboardButton(
-    text="Инстраграм",
-    url="https://instagram.com/auto_service",
-    callback_data="contact-inst"
+gmail_button = types.InlineKeyboardButton(
+    text="Gmail.com",
+    url="mailto:def196@gmail.com",
+    callback_data="contact-gmail"
 )
 
 telegram_button = types.InlineKeyboardButton(
@@ -14,4 +13,4 @@ telegram_button = types.InlineKeyboardButton(
 )
 
 contacts_keyboard_inline = types.InlineKeyboardMarkup()
-contacts_keyboard_inline.add(inst_button, telegram_button)
+contacts_keyboard_inline.add(gmail_button, telegram_button)
