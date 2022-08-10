@@ -2,9 +2,8 @@ import telebot
 from telebot import types
 from telebot.types import Message
 
-import config
 
-bot = telebot.TeleBot(config.TOKEN)
+bot = telebot.TeleBot("5369084510:AAH0iBGRAoI-gnuPPKy_q2dhXLOug9Me29k")
 
 
 @bot.message_handler(commands=['start'])
